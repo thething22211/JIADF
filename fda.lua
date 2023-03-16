@@ -1,5 +1,5 @@
 pcall(function()
-    game:GetService('CoreGui')['ProjectWonders']:Destroy()
+    game:GetService('CoreGui')['fsda']:Destroy()
 end)
 
 if not getgenv().theme then getgenv().theme = Color3.fromRGB(255,65,65) end
@@ -1648,7 +1648,7 @@ function library:Init()
 	
 	self.base = self.base or self:Create("ScreenGui", {
 		Parent = game:GetService('CoreGui'),
-        Name = 'ProjectWonders'
+        Name = 'fsda'
 	})
 	
 	for _, window in next, self.windows do
